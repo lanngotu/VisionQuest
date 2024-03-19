@@ -73,10 +73,10 @@ final class CodeChallengeTest extends TestCase{
     // Test Case 1
     public function testClassFunctionFindSolutionTestCase1()
     {
-        /**
-        * @param array     $arraySrc
-        * @param int       $numberOfRotation
-        */
+       /**
+        * @param string    $schedules
+        * @param int       $n
+        */     
         $schedules="1 1 1 1 1 0 0 1 1 1 1 1 0 0";
         $n=14;
         $codeChallenge = new CodeChallenge($schedules,$n);
@@ -88,10 +88,10 @@ final class CodeChallengeTest extends TestCase{
     // Test Case 2
     public function testClassFunctionRotLeftTestCase2()
     {
-        /**
-        * @param array     $arraySrc
-        * @param int       $numberOfRotation
-        */
+       /**
+        * @param string    $schedules
+        * @param int       $n
+        */     
         $schedules="1 0 1 1 1 1 1 1 0";
         $n=9;
         $codeChallenge = new CodeChallenge($schedules, $n);
