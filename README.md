@@ -15,7 +15,7 @@
 - PHP with PHP UnitTest
 - Composer
 ## Setup
-- Clone SoureCode `git clone https://github.com/lanngotu/-VisionQuest.git`
+- Clone SoureCode `git clone https://github.com/lanngotu/VisionQuest.git`
 - Run `composer install`
 
 ## Usage
