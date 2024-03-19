@@ -1,0 +1,19 @@
+{
+    "name": "ngotulan/codechallenge",
+    "description": "Vision Quest Code Challenge",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ngotulan\\Codechallenge\\": "src/"
+        }        
+    },
+    "authors": [
+        {
+            "name": "Ngô Tứ Lân",
+            "email": "ngotulan@gmail.com"
+        }
+    ]
+}
